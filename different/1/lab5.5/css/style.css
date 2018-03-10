@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    margin: auto;
+    min-width: 600px;
+    min-height: 450px;
+    width: 600px;
+    height: 450px;
+    padding: 4px;
+}
+.main_rect {
+    position: relative;
+    border: 4px solid #3366ff;
+    width: 100%;
+    height: 100%;
+}
+.line1 {
+    position: absolute;
+    top: 20px;
+    left: 33%;
+    border-left: 1px solid #3366ff;
+    width: 0px;
+    height: 380px;
+}
+.line2 {
+    position: absolute;
+    top: 20px;
+    right: 33%;
+    border-left: 1px solid #3366ff;
+    width: 0px;
+    height: 380px;
+}
+.rect1,  .rect2, .rect3, .rect4, .rect5{
+    height: 36px;
+    width: 36px;
+    background: #3366ff;
+    z-index: 1;
+}
+.text1, .text2, .text3, .text4, .text5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    z-index: 2;
+}
+.rect1 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.rect2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.rect3 {
+    position: absolute;
+    top: 185px;
+    left: 150px;
+}
+.rect4 {
+    position: absolute;
+    top: 90px;
+    left: 310px;
+}
+.rect5 {
+    position: absolute;
+    top: 185px;
+    left: 490px;
+}
+.text1 {
+    position: absolute;
+    top: 60px;
+    left: 55px;
+}
+.text2 {
+    position: absolute;
+    top: 100px;
+    left: 95px;
+}
+.text3 {
+    position: absolute;
+    top: 185px;
+    left: 60px;
+}
+.text4 {
+    position: absolute;
+    top: 97px;
+    left: 254px;
+}
+.text5 {
+    position: absolute;
+    top: 178px;
+    left: 466px;
+}
